@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - colomoto
+  - defaults
+dependencies:
+  - spot
+  - graphviz
+  - pyeda
