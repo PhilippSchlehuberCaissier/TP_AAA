@@ -1,11 +1,10 @@
 name: python 3.9
 dependencies:
   - python=3.9
+  - spot
+  - graphviz
+  - pyeda
 channels:
   - conda-forge
   - colomoto
   - defaults
-dependencies:
-  - spot
-  - graphviz
-  - pyeda
