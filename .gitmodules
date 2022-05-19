@@ -1,0 +1,3 @@
+[submodule "gvmagic"]
+	path = gvmagic
+	url = https://github.com/cjdrake/gvmagic.git
