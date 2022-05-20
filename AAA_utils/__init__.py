@@ -1,5 +1,7 @@
 import spot, buddy
 from spot.aux_ import str_to_svg
+from IPython.display import display
+from spot.jupyter import display_inline
 
 _dummy_g = spot.make_twa_graph()
 
