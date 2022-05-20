@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+echo 'deb http://debian.mirrors.ovh.net/debian sid main' > /etc/apt/sources.list && \
+    echo 'deb [trusted=true] http://www.lrde.epita.fr/repo/debian/ unstable/' >> /etc/apt/sources.list && \
+    apt-get update && \
+    RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
+    apt-get install -y --no-install-recommends \
+      spot python3-spot divine-ltsmin spins spin \
+      python3-pip python3-dev python3-setuptools python3-matplotlib python3-numpy python3-pandas \
+      build-essential git graphviz fonts-lato \
+      wget sudo unzip imagemagick ghostscript libbdd0c2 libspot-dev libbddx-dev \
+      libbdd-dev man-db less bison npm \
+      openjdk-11-jre-headless && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
+    set -x && \
+    pip3 install --no-cache-dir jupyter ipywidgets jupyterlab && \
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
+    rm -rf ~/.cache
