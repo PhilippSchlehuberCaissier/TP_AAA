@@ -1,0 +1,13 @@
+# Automata guessing:
+Can be determined on finite
+1) a xor Xb resp. (a & X!b) | (!a & Xb)
+Is infinite
+2) G((X(a ->Xb))) resp XG(!a | Xb)
+
+# Lift model
+A useful feature for an elevator is to got to the desired floor
+for all 0 <= i < 4
+'G("req[i]" -> F("p==i" && "cabin.open"))'
+This could be refined by demanding that he only changes
+dircection if necessary or only stops when demanded
+
