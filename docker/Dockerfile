@@ -41,10 +41,15 @@ ENV USER ${NB_USER}
 ENV NB_UID ${NB_UID}
 ENV HOME /home/${NB_USER}
 
-RUN mkdir -p ${HOME} && \
-    groupadd -g ${NB_UID} -r ${NB_USER} && \
-    useradd -u ${NB_UID} -r -s /bin/bash -g ${NB_USER} ${NB_USER} && \
-    chown ${NB_USER}:${NB_USER} ${HOME}
+#RUN mkdir -p ${HOME} && \
+#    groupadd -g ${NB_UID} -r ${NB_USER} && \
+#    useradd -u ${NB_UID} -r -s /bin/bash -g ${NB_USER} ${NB_USER} && \
+#    chown ${NB_USER}:${NB_USER} ${HOME}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
 
 COPY install.sh /tmp/install.sh
 COPY custom.css ${HOME}/.jupyter/custom/custom.css
