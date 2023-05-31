@@ -1,0 +1,22 @@
+Incompatibility issue with jupyterlab
+
+By default, mybinder launches jupyterlab instead of the "traditional"
+jupyter notebook.
+However jupyterlab is currently incompatible with how we display parts
+of the third exercice (And possibly entrails other problems as well).
+
+To remedy this problem follow these steps:
+
+1) Launch your own binder by connecting to
+https://mybinder.org/v2/gh/PhilippSchlehuberCaissier/TP_AAA/docker
+
+2) This should redirect you to something like
+https://hub.gke2.mybinder.org/user/philippschlehubercaissier-tp_aaa-xil1brzx/lab
+note that the first part (hub.gke2) as well as the last part (xil1brzx)
+may be different for you.
+
+3) Replace the ending /lab by /tree. This should still show you all the files
+but in a different GUI. For me:
+https://hub.gke2.mybinder.org/user/philippschlehubercaissier-tp_aaa-xil1brzx/tree
+
+4) Enjoy
