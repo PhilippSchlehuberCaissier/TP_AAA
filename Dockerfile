@@ -1,1 +1,1 @@
-FROM elfuius/spot_tpaaa:0.3
+FROM elfuius/spot_tpaaa2:0.1
