@@ -1,0 +1,178 @@
+\documentclass[tikz,svgnames]{standalone}
+\usetikzlibrary{arrows.meta,shadows,positioning}
+\usepackage[most]{tcolorbox}
+\usepackage{adjustbox}
+
+\begin{document}
+
+\tikzset{
+  a/.style={minimum height=2cm, align=left, right, font=\tt\small, xshift=5pt},
+  cell00/.style={},
+  cell10/.style={},
+  part1/.pic={
+    \draw[-latex] (0,0) -- ++(6,0) node[right]{\itshape Lifetime};
+ 
+ 
+
+    \path (1.5,0) node {$\mid$} node[below] {Global};
+    \path (4.5,0) node {$\mid$} node[below] {Local};
+
+
+    \filldraw (0,0) circle(3pt);
+
+
+    \node[a, cell10] at (3,1) {
+      void foo() \{\\
+      ~~int {\color{DarkGreen} i} = 0;\\
+      \}
+    };
+
+    \node[a, cell00] at (0,1) {
+      {namespace X \{}\\
+      ~~int i = 0;\\
+      {\}}
+    };
+  },
+  part2/.pic = {
+    \draw[-latex] (0,0) -- ++(0,4) node[left]{\itshape Visibility};
+    \node at (0,1) {$-$};
+    \node at (0,3) {$-$};
+    \node[left] at (0,1) {Internal};
+    \node[left] at (0,3) {External};
+
+
+    \draw (0,2) -- ++(6,0);
+    \draw (3,0) -- ++(0,4);
+
+
+    \node[a,cell10] at (0,3) {
+      {\scriptsize namespace X \{}\\
+      {~~\scriptsize \color{gray}// .hpp (decl)}\\
+      {~~\color{orange} extern} int {\color{DarkGreen} i};\\
+      {~~\scriptsize \color{gray}// .cpp (def)}\\
+      {~~int {\color{DarkGreen} i} = 0};\\
+      {\scriptsize \}}\\
+    };
+
+  }
+}
+
+
+\begin{tikzpicture}
+  \pic {part1};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \tikzset{cell00/.style={opacity=0}}
+  \pic {part1};
+  \pic {part2};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+  \tikzset{cell00/.style={opacity=0}}
+  \pic {part1};
+  \pic {part2};
+
+  \node[a] at (0,1) {
+    namespace {\color{orange} \textvisiblespace~\{}\\
+    ~~int i = 0;\\
+    {\color{orange} \}}
+  };
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+  \tikzset{cell00/.style={opacity=0}}
+  \tikzset{cell10/.style={opacity=0}}
+  \pic {part1};
+
+  \tikzset{cell10/.style={opacity=0}}
+  \pic {part2};
+
+  \tikzset{a/.append style={xshift=-5pt}}
+
+  \node[a] at (0,3) {
+    {\scriptsize namespace X \{}\\
+    {~~\scriptsize \color{gray}// .hpp (decl)}\\
+    {~~\color{orange} [extern]} void foo();\\
+    {~~\scriptsize \color{gray}// .cpp (def)}\\
+    {~~void foo() \{\ldots\}}\\
+    {\scriptsize \}}\\
+  };
+
+
+  \node[a] at (0,1) {
+    namespace {\color{orange} \textvisiblespace~\{}\\
+    ~~void foo() \{\ldots\}\\
+    {\color{orange} \}}
+  };
+\end{tikzpicture}
+
+
+% Yellow:
+\definecolor{BgYellow}{HTML}{FFF59C}
+\definecolor{FrameYellow}{HTML}{F7A600}
+
+\newtcolorbox{YStkyNote}[1][]{%
+    enhanced,
+    before skip=2mm,after skip=2mm, 
+    width=0.4\textwidth, % width of the sticky note
+    boxrule=0.2mm,
+    colback=BgYellow, colframe=FrameYellow, % Colors
+    attach boxed title to top left={xshift=0cm,yshift*=0mm-\tcboxedtitleheight},
+    varwidth boxed title*=-3cm,
+    % The titlebox:
+    boxed title style={frame code={%
+        \path[left color=FrameYellow,right color=FrameYellow,
+        middle color=FrameYellow]
+        ([xshift=-0mm]frame.north west) -- ([xshift=0mm]frame.north east)
+        [rounded corners=0mm]-- ([xshift=0mm,yshift=0mm]frame.north east)
+        -- (frame.south east) -- (frame.south west)
+        -- ([xshift=0mm,yshift=0mm]frame.north west)
+        [sharp corners]-- cycle;
+        },interior engine=empty,
+    },
+    sharp corners,rounded corners=southeast,arc is angular,arc=3mm,
+    % The "folded paper" in the bottom right corner:
+    underlay={%
+        \path[fill=BgYellow!80!black] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+        \path[draw=FrameYellow,shorten <=-0.05mm,shorten >=-0.05mm,color=FrameYellow] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+        },
+    drop fuzzy shadow, % Shadow
+    fonttitle=\bfseries, 
+    title={#1}
+}
+
+\begin{tikzpicture}
+
+  \node[align=left, font=\tt] (A) {
+    \begin{YStkyNote}[A.cpp]
+\begin{verbatim}
+int global_A;
+
+void foo() {
+  bar();
+};     
+\end{verbatim}
+    \end{YStkyNote}
+  };
+
+
+  \node[align=left, font=\tt] (B) [right=2cm of A] {
+    \begin{YStkyNote}[B.cpp]
+\begin{verbatim}
+int global_B;
+
+void bar() {
+  global_A += 1;
+};     
+\end{verbatim}
+    \end{YStkyNote}
+  };
+
+\draw[<->] (A) -- (B);
+\end{tikzpicture}
+
+
+\end{document}

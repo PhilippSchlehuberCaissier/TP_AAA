@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="339.53323mm"
+   height="165.87415mm"
+   viewBox="0 0 339.53323 165.87415"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="OO_part1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="692.41335"
+     inkscape:cy="498.25473"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       originx="-10.916772"
+       originy="-24.767512" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.916772,-24.767511)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.225"
+       y="32.808338"
+       id="text915"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="22.225"
+         y="32.808338">Proced. Prog. </tspan></text>
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:2.464;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5087"
+       width="98.998344"
+       height="72.993416"
+       x="12.148772"
+       y="46.015385"
+       ry="14.59868" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.166656"
+       y="59.266655"
+       id="text7799"><tspan
+         sodipodi:role="line"
+         id="tspan7797"
+         style="stroke-width:0.264583"
+         x="21.166656"
+         y="59.266655">Data Structures</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.166656"
+         y="72.495781"
+         id="tspan9363">  -List</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.166656"
+         y="85.724907"
+         id="tspan9365">  -Vector</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.166656"
+         y="98.954025"
+         id="tspan9367">  -Tree_Node</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="21.166656"
+         y="112.18315"
+         id="tspan12851">  -...</tspan></text>
+    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:2.2298;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10747"
+       width="98.954117"
+       height="59.795837"
+       x="12.170885"
+       y="129.1167"
+       ry="11.959167" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.224991"
+       y="142.875"
+       id="text11779"><tspan
+         sodipodi:role="line"
+         id="tspan11777"
+         style="stroke-width:0.264583"
+         x="22.224991"
+         y="142.875">Algorithms</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="22.224991"
+         y="156.10413"
+         id="tspan11781">  -list_find</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="22.224991"
+         y="169.33325"
+         id="tspan11783">  -set_find</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="22.224991"
+         y="182.56238"
+         id="tspan11785">  -...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="254.52751"
+       y="32.808338"
+       id="text16167"><tspan
+         sodipodi:role="line"
+         id="tspan16165"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="254.52751"
+         y="32.808338">OO</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:2.4, 9.6;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect16271"
+       width="199.51816"
+       height="144.4846"
+       x="149.73186"
+       y="44.95705"
+       ry="28.896914" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="171.71477"
+       y="59.859688"
+       id="text17161"><tspan
+         sodipodi:role="line"
+         id="tspan17159"
+         style="stroke-width:0.264583"
+         x="171.71477"
+         y="59.859688">Classes</tspan></text>
+    <rect
+       style="fill:none;stroke:#ff00ff;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect18321"
+       width="116.41666"
+       height="121.70832"
+       x="216.95833"
+       y="52.916668"
+       ry="24.34166" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="232.30424"
+       y="69.320831"
+       id="text20797"><tspan
+         sodipodi:role="line"
+         id="tspan20795"
+         style="stroke-width:0.264583"
+         x="232.30424"
+         y="69.320831">Set</tspan></text>
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect25539"
+       width="98.998344"
+       height="31.749998"
+       x="224.85164"
+       y="74.083336"
+       ry="6.349998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="233.86954"
+       y="87.334602"
+       id="text25551"><tspan
+         sodipodi:role="line"
+         id="tspan25541"
+         style="stroke-width:0.264583"
+         x="233.86954"
+         y="87.334602">Data Part</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="233.86954"
+         y="100.56373"
+         id="tspan25549">  -Vector</tspan></text>
+    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:1.89947;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect27549"
+       width="98.954117"
+       height="43.391689"
+       x="223.83755"
+       y="115.35831"
+       ry="8.6783371" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="233.89166"
+       y="129.11662"
+       id="text27559"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="233.89166"
+         y="129.11662"
+         id="tspan27557">Algorithm Part</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="233.89166"
+         y="142.34575"
+         id="tspan28408">  -find</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="233.89166"
+         y="155.57487"
+         id="tspan30198">  -...</tspan></text>
+  </g>
+</svg>

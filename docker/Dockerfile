@@ -9,13 +9,16 @@ RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
 RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
     apt-get install -y wget gnupg apt-utils
 
+#RUN wget -O /etc/apt/trusted.gpg.d/lrde.gpg https://www.lrde.epita.fr/repo/debian.gpg
 RUN wget -O /etc/apt/trusted.gpg.d/lrde.gpg https://www.lrde.epita.fr/repo/debian.gpg
 
 RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
     apt-get update
 
-RUN echo 'deb http://debian.mirrors.ovh.net/debian sid main' > /etc/apt/sources.list && \
-    echo 'deb [trusted=true] http://www.lrde.epita.fr/repo/debian/ unstable/' >> /etc/apt/sources.list && \
+#RUN echo 'deb http://debian.mirrors.ovh.net/debian sid main' > /etc/apt/sources.list && \
+#    echo 'deb [trusted=true] http://www.lrde.epita.fr/repo/debian/ unstable/' >> /etc/apt/sources.list && \
+
+RUN echo 'deb http://www.lrde.epita.fr/repo/debian/ unstable/' >> /etc/apt/sources.list && \
     apt-get update && \
     RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --no-install-recommends \
@@ -29,10 +32,11 @@ RUN echo 'deb http://debian.mirrors.ovh.net/debian sid main' > /etc/apt/sources.
 
 RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --no-install-recommends npm
+RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive \
+    apt-get install -y python3-ipywidgets python3-jupyterlab-server
 RUN rm -rf /var/lib/apt/lists/* && \
     set -x && \
-    pip3 install --no-cache-dir jupyter ipywidgets jupyterlab && \
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
+    python3 -m pip install jupyter jupyterlab labextension install @jupyter-widgets/jupyterlab-manager && \
     rm -rf ~/.cache
 
 ARG NB_USER=jovyan

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53.777962mm"
+   height="14.090334mm"
+   viewBox="0 0 53.777962 14.090334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   sodipodi:docname="17_1_ptr.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:lockguides="true"
+     inkscape:zoom="3.659624"
+     inkscape:cx="87.440677"
+     inkscape:cy="-14.618988"
+     inkscape:window-width="2490"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       originx="-19.486046"
+       originy="-47.249275" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       orient="auto-start-reverse"
+       refY="0"
+       refX="0"
+       id="three_dots"
+       inkscape:stockid="three_dots"
+       style="overflow:visible"
+       markerWidth="5.5"
+       markerHeight="1.5"
+       viewBox="0 0 5.5 1.5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <g
+         id="g1246"
+         transform="scale(0.5)">
+        <circle
+           cx="4"
+           cy="0"
+           r="1"
+           id="circle237"
+           style="fill:context-stroke;stroke:context-stroke" />
+        <circle
+           cx="8"
+           cy="0"
+           r="1"
+           id="circle239"
+           style="fill:context-stroke;stroke:context-stroke" />
+        <circle
+           cx="12"
+           cy="0"
+           r="1"
+           id="circle241"
+           style="fill:context-stroke;stroke:context-stroke" />
+      </g>
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.486047,-47.249275)">
+    <rect
+       style="fill:#ff0000;fill-opacity:0.491951;stroke:none;stroke-width:0.48907;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4537"
+       width="6.494431"
+       height="6.3080568"
+       x="59.578636"
+       y="47.735989" />
+    <rect
+       style="fill:none;fill-opacity:0.645342;stroke:#000000;stroke-width:0.398463;stroke-opacity:1"
+       id="rect490"
+       width="39.75201"
+       height="6.6064858"
+       x="26.454271"
+       y="47.574402"
+       ry="0" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.645342;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 33.023896,47.696127 0.05412,6.325994"
+       id="path1093" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.645342;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 39.689434,47.60751 7.93e-4,6.558841"
+       id="path1149" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.645342;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 46.282922,47.640361 0.01728,6.543564"
+       id="path1877" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.645342;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 52.876506,47.611155 0.01728,6.543564"
+       id="path1879" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.645342;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 59.543125,47.638231 0.01728,6.543564"
+       id="path2607" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="28.730377"
+       y="52.130337"
+       id="text3389"><tspan
+         sodipodi:role="line"
+         id="tspan3387"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="28.730377"
+         y="52.130337">0</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#three_dots)"
+       d="m 27.742698,47.579732 -5.556669,-0.02127"
+       id="path3445" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#three_dots)"
+       d="m 27.75488,54.177705 -5.556669,-0.02127"
+       id="path4459" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#three_dots)"
+       d="m 65.007356,47.579732 5.556669,-0.02127"
+       id="path4476" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#three_dots)"
+       d="m 64.995174,54.177705 5.556669,-0.02127"
+       id="path4478" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="35.60955"
+       y="52.130337"
+       id="text5297"><tspan
+         sodipodi:role="line"
+         id="tspan5299"
+         x="35.60955"
+         y="52.130337">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="41.430389"
+       y="52.130337"
+       id="text5303"><tspan
+         sodipodi:role="line"
+         id="tspan5305"
+         x="41.430389"
+         y="52.130337">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="47.780396"
+       y="52.130337"
+       id="text5309"><tspan
+         sodipodi:role="line"
+         id="tspan5307"
+         x="47.780396"
+         y="52.130337">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="53.601234"
+       y="52.130337"
+       id="text5313"><tspan
+         sodipodi:role="line"
+         id="tspan5311"
+         x="53.601234"
+         y="52.130337">N-1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="61.538742"
+       y="52.130337"
+       id="text5419"><tspan
+         sodipodi:role="line"
+         id="tspan5421"
+         x="61.538742"
+         y="52.130337">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="27.142876"
+       y="57.422009"
+       id="text5425"><tspan
+         sodipodi:role="line"
+         id="tspan5423"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="27.142876"
+         y="57.422009">arr</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="31.376213"
+       y="61.126179"
+       id="text5429"><tspan
+         sodipodi:role="line"
+         id="tspan5427"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="31.376213"
+         y="61.126179">arr+1</tspan></text>
+  </g>
+</svg>

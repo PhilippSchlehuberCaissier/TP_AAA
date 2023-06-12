@@ -1,0 +1,28 @@
+---
+author:
+date:                 Feb'23
+institute:            EPITA Research & Development Laboratory (LRDE)\newline \vskip20pt
+                      \hfill \includegraphics[height=1.5cm]{static/epita.png} \hspace{1cm} \includegraphics[height=1.5cm]{static/lre.png}
+#logo:                 static/lrde.png
+controls:             false
+slideNumber:          true
+transition:           none
+theme:                metropolis
+aspectratio:          1610
+classoption:          smaller,svgnames # list of options \domcumentclass[options]{beamer}
+lang:                 en               # use "fr" or "en"
+toc:                  yes
+toccolor:             gray
+linkcolor:            mDarkTeal
+urlcolor:             DarkGreen
+mainfont: DejaVuSerif.ttf
+sansfont: DejaVuSans.ttf
+monofont: DejaVuSansMono.ttf
+mathfont: texgyredejavu-math.otf
+mainfontoptions:
+- Extension=.ttf
+- UprightFont=*
+- BoldFont=*-Bold
+- ItalicFont=*-Italic
+- BoldItalicFont=*-BoldItalic
+---

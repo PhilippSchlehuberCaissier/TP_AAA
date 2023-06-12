@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="124.94224mm"
+   height="128.58365mm"
+   viewBox="0 0 124.94224 128.58365"
+   version="1.1"
+   id="svg863"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="OO_encaps1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview865"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="221.80372"
+     inkscape:cy="423.67725"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1012"
+       originx="-46.144696"
+       originy="-36.369959" />
+  </sodipodi:namedview>
+  <defs
+     id="defs860" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.144695,-36.369958)">
+    <rect
+       style="fill:none;stroke:#ff00ff;stroke-width:2.96061;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect18321"
+       width="121.98163"
+       height="110.55663"
+       x="47.625"
+       y="52.916668"
+       ry="15.874998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.244198"
+       y="44.410786"
+       id="text20797"><tspan
+         sodipodi:role="line"
+         id="tspan20795"
+         style="stroke-width:0.264583"
+         x="63.244198"
+         y="44.410786">my_class</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:0.1766;stroke:#ff0000;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect25539"
+       width="111.125"
+       height="21.166658"
+       x="53.189953"
+       y="73.514954"
+       ry="6.349998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.751167"
+       y="67.18705"
+       id="text25551"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="63.751167"
+         y="67.18705"
+         id="tspan25549">Data Part</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:0.1766;stroke:#0000ff;stroke-width:2.30738;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect27549"
+       width="109.53745"
+       height="37.571297"
+       x="54.777508"
+       y="120.61032"
+       ry="12.805924" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="64.831612"
+       y="134.3685"
+       id="text27559"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="134.3685"
+         id="tspan3408">- private internals</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="147.59763"
+         id="tspan5161">- public API</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="160.82675"
+         id="tspan5093" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.773277"
+       y="115.31912"
+       id="text2111"><tspan
+         sodipodi:role="line"
+         id="tspan2109"
+         style="stroke-width:0.264583"
+         x="63.773277"
+         y="115.31912">Algorithm part</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.730556"
+       y="87.487823"
+       id="text5915"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="62.730556"
+         y="87.487823"
+         id="tspan5913">private internals</tspan></text>
+  </g>
+</svg>

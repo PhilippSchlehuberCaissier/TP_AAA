@@ -1,0 +1,87 @@
+\usepackage{tikz}
+%\usepackage{etoolbox}
+\usepackage{emoji}
+\usepackage[mathletters]{ucs}
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage{tcolorbox}
+\usepackage{soul}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\let\checkmark\relax
+\usepackage{dingbat}
+\usetikzlibrary{positioning,matrix,shapes}
+\usepackage{tkz-graph}
+
+\usetikzlibrary{graphs,quotes}
+
+\setemojifont{Noto Color Emoji}
+\setsansfont[
+  BoldFont={DejaVu Sans Bold},
+  ItalicFont={DejaVu Sans Oblique},
+  BoldItalicFont={DejaVu Sans Bold Oblique}
+]{DejaVu Sans}
+
+
+\newtcolorbox{framed}{size=small,colframe=black,oversize=1mm}
+\newtcolorbox{snippet}[1]{size=small,colback=white!10,colframe=green!40!black,oversize=1mm,title={{#1}}}
+\newtcolorbox{definitionsnippet}[1]{colback=white!10,colframe=blue!40!black,title={{#1}}}
+\newtcolorbox{warningsnippet}[1]{colback=white!10,colframe=red!40!black,title={{#1}}}
+\newtcolorbox{lemmasnippet}[1]{colback=green!10,colframe=green!40!black,title={{#1}}}
+
+% Aliases to make it shorter
+\newtcolorbox{codebox}[1]{colback=white!10,colframe=green!40!black,title={{#1}}}
+\newtcolorbox{defbox}[1]{colback=white!10,colframe=blue!40!black,title={{#1}}}
+\newtcolorbox{warnbox}[1]{colback=white!10,colframe=red!40!black,title={{#1}}}
+
+\let\Begin\begin
+\let\End\end
+\newcommand{\Esc}[1]{#1}
+\setbeamertemplate{block begin}{\raggedright\textbf{\insertblocktitle}\\ \smallskip}
+\setbeamertemplate{block end}{}
+
+\newunicodechar{👍}{\emoji{+1}}
+\newunicodechar{👎}{\emoji{-1}}
+\newunicodechar{👉}{\emoji{point-right}}
+\newunicodechar{✍}{\emoji{writing-hand}}
+\newunicodechar{😈}{\emoji{smiling-face-with-horns}}
+\newunicodechar{😃}{\emoji{smiley}}
+\newunicodechar{😀}{\emoji{grinning}}
+\newunicodechar{😵}{\emoji{dizzy-face}}
+\newunicodechar{😆}{\emoji{laughing}}
+\newunicodechar{💡}{\emoji{bulb}}
+\newunicodechar{🌶}{\emoji{hot-pepper}}
+\newunicodechar{①}{\textsf{①}}
+\newunicodechar{②}{\textsf{②}}
+\newunicodechar{③}{\textsf{③}}
+\newunicodechar{④}{\textsf{④}}
+\newunicodechar{⑤}{\textsf{⑤}}
+\newunicodechar{⑥}{\textsf{⑥}}
+
+
+
+\newunicodechar{❌}{\emoji{x}}
+\newunicodechar{✅}{\emoji{check-mark-button}}
+\newunicodechar{✘}{\textbf{\ding{54}}}
+\newunicodechar{✗}{\ding{54}}
+\newunicodechar{✔}{{\color{DarkGreen}\emoji{check-mark}}}
+\newunicodechar{✓}{{\color{DarkGreen}\emoji{check-mark}}}
+\newunicodechar{⚠}{\emoji{warning}}
+\newcommand{\warning}{\emoji{warning}\xspace}
+
+\definecolor{plas1}{rgb}{0.050383,0.029803,0.527975}
+\definecolor{plas2}{rgb}{0.274191,0.012109,0.622722}
+\definecolor{plas3}{rgb}{0.447714,0.00208,0.66024}
+\definecolor{plas4}{rgb}{0.610667,0.090204,0.619951}
+\definecolor{plas5}{rgb}{0.740143,0.213864,0.524216}
+\definecolor{plas6}{rgb}{0.846788,0.342551,0.420579}
+\definecolor{plas7}{rgb}{0.928329,0.472975,0.326067}
+\definecolor{plas8}{rgb}{0.9830409999999999,0.624131,0.227937}
+\definecolor{plas9}{rgb}{0.991209,0.790537,0.149377}
+\definecolor{plas10}{rgb}{0.940015,0.975158,0.131326}
+
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\A}{\ensuremath{\mathcal{A}}}
+\newcommand{\G}{\ensuremath{\mathcal{G}}}

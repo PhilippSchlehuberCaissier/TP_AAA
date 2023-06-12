@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="182.34915mm"
+   height="40.186634mm"
+   viewBox="0 0 182.34915 40.186634"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="0809-det-unique_ptr.svg"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.57187978"
+     inkscape:cx="336.60921"
+     inkscape:cy="-105.79147"
+     inkscape:window-width="1864"
+     inkscape:window-height="1016"
+     inkscape:window-x="56"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs10">
+    <marker
+       style="overflow:visible"
+       id="marker16906"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path16654" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5850" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1228"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path976" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(73.215141,-73.856972)">
+    <rect
+       style="opacity:1;fill:none;stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect119"
+       width="23.917068"
+       height="16.063702"
+       x="84.466942"
+       y="97.229904" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="93.021774"
+       y="108.98491"
+       id="text2334"><tspan
+         id="tspan2332"
+         style="stroke-width:0.264583"
+         x="93.021774"
+         y="108.98491">5</tspan></text>
+    <rect
+       style="opacity:1;fill:none;stroke:#c400cc;stroke-width:1.31639;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4649"
+       width="112.27255"
+       height="32.937454"
+       x="-72.556946"
+       y="74.515167" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M -38.498649,95.311297 C 8.1157072,94.045254 50.352927,95.788491 81.800626,104.94952"
+       id="path5755" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-70.097534"
+       y="85.299118"
+       id="text12727"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-70.097534"
+         y="85.299118"
+         id="tspan12729">unique_ptr&lt;int&gt; p1</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-70.097534"
+         y="98.528244"
+         id="tspan12731">ptr_</tspan></text>
+  </g>
+</svg>

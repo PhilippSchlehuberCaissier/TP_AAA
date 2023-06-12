@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.41794mm"
+   height="142.15086mm"
+   viewBox="0 0 139.41795 142.15087"
+   version="1.1"
+   id="svg863"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="OO_RAII.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview865"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.5554293"
+     inkscape:cx="201.55207"
+     inkscape:cy="278.05828"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1012"
+       originx="-46.375004"
+       originy="-36.369961" />
+  </sodipodi:namedview>
+  <defs
+     id="defs860">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path963" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.375,-36.369958)">
+    <rect
+       style="fill:none;stroke:#ff00ff;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect18321"
+       width="121.70834"
+       height="124.35416"
+       x="47.625"
+       y="52.916668"
+       ry="15.874998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.244198"
+       y="44.410786"
+       id="text20797"><tspan
+         sodipodi:role="line"
+         id="tspan20795"
+         style="stroke-width:0.264583"
+         x="63.244198"
+         y="44.410786">my_raii_class</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:0.1766;stroke:#ff0000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect25539"
+       width="110.85172"
+       height="32.318378"
+       x="53.189953"
+       y="73.514954"
+       ry="6.349998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.751167"
+       y="67.18705"
+       id="text25551"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="63.751167"
+         y="67.18705"
+         id="tspan25549">Data Part</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:0.1766;stroke:#0000ff;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect27549"
+       width="109.26416"
+       height="46.606346"
+       x="54.777508"
+       y="125.37282"
+       ry="12.210514" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="64.831612"
+       y="139.13094"
+       id="text27559"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="139.13094"
+         id="tspan5161">public API</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="152.36006"
+         id="tspan4950">  - ctor/dtor</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="165.58919"
+         id="tspan4952">  - accessor ...</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.831612"
+         y="178.81831"
+         id="tspan5093" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.773277"
+       y="120.0816"
+       id="text2111"><tspan
+         sodipodi:role="line"
+         id="tspan2109"
+         style="stroke-width:0.264583"
+         x="63.773277"
+         y="120.0816">Algorithm part</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.730556"
+       y="86.958656"
+       id="text5915"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="62.730556"
+         y="86.958656"
+         id="tspan5913">private internals</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="62.730556"
+         y="100.18778"
+         id="tspan2390">handled resource</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 165.1,150.8125 c 19.56333,-19.86056 15.62118,-40.23076 0,-60.85417"
+       id="path57"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.64328"
+       y="-180.65147"
+       id="text1694"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan1692"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="106.64328"
+         y="-180.65147">access</tspan></text>
+  </g>
+</svg>
