@@ -604,6 +604,49 @@ $W_0^0 \subseteq W_0^1 \subseteq \ldots \subseteq W_0^m = W_0^{m+1}$
 :::
 ::::::
 
+# Synthesis in a nutshell
+
+## From game solving to synthesis
+
+We have treated some of the classics for games on graphs. 
+However this was fairly disconnected from our original synthesis problem!
+
+. . . 
+
+Let us fix that!
+
+## Textbook automata theoretic approach
+
+Recall that we have a specification, given as LTL formula. 
+This formula is built over a set of atomic propositions $AP$. 
+
+These propositions are partitioned into two sets:
+
+- The set of controllable $AP$ (controller output), $O$
+- The set of uncontrollable $AP$ (environment input) $I$
+
+. . . 
+
+The formula specifies what output we expect given an input sequence.
+
+. . . 
+
+Our controller can be seen as a transducer from $I^*$ to $O$.
+
+This is also called a Mealy Machine and this is our goal.
+
+## Textbook automata theoretic approach
+
+The basic approach is
+
+- Translate the formula into a deterministic (parity) automaton
+- Split all transitions in two, first over $I$, then over $O$
+- Solve the associated game
+- Prune the automaton with the winning strategy to obtain Mealy Machine
+
+## Textbook automata theoretic approach - Demo
+
+### Time for the notebook
 
 ## That's all for today
 
