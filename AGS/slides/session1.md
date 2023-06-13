@@ -316,3 +316,295 @@ If a positional strategy does **not** depend on the initial vertex, we call it a
 ### It is a Trap
 
 Intuitively, a trap is a set of vertices from which the trapped player may not escape without the help of the other.
+
+\Begin{definitionsnippet}
+
+Let $\A = (V,V_0,V_1,E)$ be an arena and let $T \subseteq V$. 
+
+Then, T is a trap for player $i$, if
+- every vertex $v \in T \cap V_i$ of player $i$ in $T$ has only successors in $T$, i.e., $(v, v') \in E$ implies $v' \in T$, and
+- every vertex $v \in T \cap V_{1−i}$ of player $1 − i$ in $T$ there is a successor in $T$ , i.e., there is some $v' \in T$ with $(v, v') \in E$.
+\End{definitionsnippet}
+
+## Trap, take #2
+
+\Begin{lemmasnippet}{Sub-Arenas and nested traps}
+Let $T$ be a trap for $\A$, then
+
+- The sub-arena $A_{T}$ induced by $T$ is a valid sub-arena
+- The sub-arena $A_{{V \setminus T}}$ is a valid sub-arena
+- If $T'$  is a trap for player $i$ in $A_{T}$, then it is also trap for player $i$ in $\A$
+
+\End{lemmasnippet}
+
+. . . 
+\Begin{center}
+*Sketch of Proof* 
+\End{center}
+
+## Lemmas and exercises
+
+- Let $\G = (\A, Win)$ be a game with prefix-independent winning condition $Win$. Then, $W_i(\G)$
+is a trap for player $1−i$.
+
+. . . 
+
+- Consider the game $\G = (\A, Win)$ with the arena $\A$ depicted below and the winning
+condition $Win = \{\rho \in V^\omega | Occ(\rho) = V \}$
+
+::::::{ .columns }
+:::{ .column width=40% }
+![](figs/arena2.png){width=95%}
+:::
+:::{ .column width=60% }
+
+- Give a trap for player 1
+- Give a winning strategy and initial state for some player
+- Is the strategy found (uniformly) positional
+
+:::
+::::::
+
+. . . 
+
+- Prove or disprove: If player $i$ has a positional winning strategy from each vertex $v \in W_i(\G)$
+for some game $\G$, then player $i$ has a uniform positional winning strategy for $\G$.
+
+# Reachability Games
+
+## Reachability Game
+
+\Begin{definitionsnippet}{Reachability Game}
+Let $\A = (V, V_0 , V_1 , E) be an arena and let $R \subseteq V$ be a subset of $\A$’s vertices. 
+
+Then, the reachability condition $Reach(R)$ is defined as $Reach(R) := \{\rho \in V^\omega | Occ(\rho) \cap R \neq \emptyset\}$.
+
+We call a game $\G = (\A, Reach(R))$ a reachability game with reachability set $R$.
+\End{definitionsnippet}
+
+. . . 
+
+::::::{ .columns }
+:::{ .column width=25% }
+![](figs/arena3.png){width=80%}
+:::
+:::{ .column width=75% }
+ 
+ 
+Example of a reachability game with $R=\{5\}$
+
+- Are there traps for player 0
+- What is the winning region for player $1$
+- Is the strategy of player $1$ uniform?
+. . . 
+- Is this *really* an infinite game?
+
+:::
+::::::
+
+## Solving the game by hand
+
+![](figs/arena3.png){width=30%}
+
+## Predecessors and attractors 1
+
+As we have argued, the winning region of player $1$ $W_1$ corresponds to the set of all states which we can attract to / force to pass by a state in $R$.
+
+. . . 
+
+Adding states one step at a time
+
+\Begin{definitionsnippet}{Controlled Predecessor}
+Let $\A$ be some arena and $S\subseteq V$ an arbitrary set of states.
+
+We call $CPre_i(S)$ the set of controlled predecessors for player $i$ and set $S$ defined as
+
+$CPre_i(S) = \{v \in V_i | v' \in S \text{ for some successor } v' \text{ of } v\} \cup$ 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$\{v \in V_{1−i} | v' \in S \text{ for all successors } v'  \text{ of }  v\}$.
+\End{definitionsnippet}
+
+. . . 
+
+These are all states which player $i$ can **force** to be in $S$ in the next step.
+
+## Predecessors and attractors 2
+
+We can now iteratively call $CPre$ to compute the attractor via a fixed point computation
+
+. . . 
+
+- $Attr_i^0(S) = S$ initialization
+- $Attr_i^{n+1}(S) = Attr_i^{n}(S) \cup CPre_i(Attr_i^{n}(S))$ iteration
+- $Attr_i(S) = $Attr_i^{n}(S)$ termination
+
+. . . 
+
+Note that $Attr_i^{n-1}(S)$ is always a subset of $Attr_i^{n}(S)$
+
+## A note on termination for attractor computation
+
+The different $Attr_i^{n}(S)$ form a monotonic subset relation.
+
+That is in each iteration $Attr_i^{n+1}(S)$ is at least equal to $Attr_i^{n}(S)$.
+
+This implies that after at most $|V|$ step the computation becomes stationary ensuring termination.
+
+. . . 
+
+A more refined approach:
+
+Let $\A$ be an arena and $0\le m \le |V|$ some index. 
+
+Then we can write 
+
+$S = Attr_i^0(S) \subseteq Attr_i^1(S) \subseteq Attr_i^2(S) \subseteq \ldots \subseteq Attr_i^m(S)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+$= Attr_i^{m+1}(S) = \ldots = Attr_i^{|V|}(S) =  Attr_i(S)$
+
+. . . 
+
+Giving us a valid criterion for *early* termination.
+
+## From Attractors to Reachability Games
+
+\Begin{lemmasnippet}{The attractor provides the winning regions}
+Let $\G = (\A, Reach(R))$ with $\A = (V, V_0 , V_1 , E)$. 
+
+Then, $W_1(\G) = Attr_1(R)$ and $W_0(\G) = V \setminus Attr_1(R)$
+\End{lemmasnippet}
+
+. . . 
+
+- $Attr_1(R)$ is precisely the set of states which player $1$ can force to reach $R$, fulfilling the winning condition. 
+- $V \setminus Attr_1(R)$ is a trap for player $1$ not containing any $R$ states at all.
+
+## From Attractors to Winning Strategies
+
+\Begin{lemmasnippet}{The attractor computation provides a positional winning strategy}
+Let $\G = (\A, Reach(R))$ with $\A = (V,V_0,V_1,E)$. 
+
+The sequence of attractors $Attr_1^n(R)$ can be transformed into a (positional) winning strategy.
+\End{lemmasnippet}
+
+. . . 
+
+*Sketch of Proof*
+
+Define the metric $\mu(v) = min\{n\in\N | v\in Attr_1^n(R)\}$
+
+Intuitively this corresponds to the *distance* between the current vertex $v$ and the *closest* vertex in $R$.
+
+Now we can define a strategy: 
+
+Whenever $v$ belongs to player $i$ and is in $Attr_1(R)$ two cases arise:
+
+- We have $v\in R$, in which case the objective is fulfilled
+- Otherwise, by construction, exists a successor $v'$ such that $\mu(v') < \mu(v)$.
+
+# Büchi Games
+
+## Büchi Games
+
+\Begin{definitionsnippet}{Büchi Games}
+Let $\A = (V,V_0,V_1,E)$ be an arena and let $F \subseteq V$ be a subset of $\A$’s vertices. 
+
+Then, the Büchi condition $Buchi(F)$ is defined as 
+
+$Buchi(F) = \{\rho \in V^\omega | Inf(\rho) \cap F \neq ∅\}$.
+
+We call a game $\G = (\A, Buchi(F))$ a Büchi game with recurrence set $F$.
+\End{definitionsnippet}
+
+. . . 
+
+Recall that this corresponds to a liveness condition:
+
+Something *good* (visiting a good state in $F$) is guaranteed to eventually happen.
+
+## Reachability vs Büchi
+
+Note that this is very different from the reachability condition.
+
+For reachability it is not possible to *unaccept* a word, so
+for some $w \in V^*$ with $Occ(w) \cap R \neq \emptyset$ then for all 
+$u\in V^\omega$ we have $wu \in Reach(R)$.
+
+. . . 
+
+However for Büchi we actually need to know the "entire infinite word" in order to accept or reject.
+
+So we can never decide acceptance after seeing some finite prefix. 
+Accepted words need to form a lasso: A finite prefix $u$ and finite cycle $w$ which must contain states from $F$ giving $u.w^\omega$.
+
+## Solving Büchi Games
+Solving Büchi Games is basically a nested to problem:
+
+- We need to be able to reach a state of the recurrence set (in a finite number of steps)
+    - This can be done via attractor computation
+- We need to make sure we can repeat this 🤔
+
+. . . 
+
+::::::{ .columns }
+:::{ .column width=50% }
+
+\Begin{center}
+![](figs/arena5a.png){width=40%}
+\End{center}
+
+:::
+:::{ .column width=50% }
+
+\Begin{center}
+![](figs/arena5b.png){width=40%}
+\End{center}
+
+:::
+::::::
+
+## Recurrence Construction
+
+\Begin{definitionsnippet}{Solving the Reccurence Game}
+We use again an iterative approach
+
+- $F^0 = F$ initialization
+- $W_0^n = V \setminus Attr_1 (F^n)$ iteration with nested computation
+- $F^{n+1} = F \setminus CPre_0(W_0^n)$ update
+
+\End{definitionsnippet}
+
+. . . 
+
+::::::{ .columns }
+:::{ .column width=50% }
+
+### What about termination
+
+We have two monotonic sequences
+
+$F = F^0 \supseteq F^1 \supseteq \ldots \supseteq F^m = F^{m+1}$
+
+$W_0^0 \subseteq W_0^1 \subseteq \ldots \subseteq W_0^m = W_0^{m+1}$
+
+
+:::
+:::{ .column width=50% }
+
+. . . 
+
+### And what about
+
+- The winning region of player $i$
+- The complexity of the algorithm?
+- How to extract a winning strategy?
+- What type of strategy is it?
+
+:::
+::::::
+
+
+## That's all for today
+
+### thanks and see you in practice
